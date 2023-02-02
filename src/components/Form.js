@@ -35,16 +35,14 @@ const Form = () => {
           value={state.title}
           onChange={handleTitleChange}
         />
-        <select
+        <input
+          type="text"
+          name="author"
+          placeholder="Book author"
           className="form-select"
           value={state.author}
           onChange={handleTitleChange}
-        >
-          <option value="">Author</option>
-          <option value="option-1">Select option 1</option>
-          <option value="option-2">Select option 2</option>
-          <option value="option-3">Select option 3</option>
-        </select>
+        />
         <button className="form-btn" type="submit">
           Add Book
         </button>

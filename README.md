@@ -1,10 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <img src="mathmagician.jpeg" alt="logo" width="140"  height="auto" />
-  <br/>
-
+ 
   <h3><b>Book Store using React</b></h3>
 
 </div>
@@ -31,7 +28,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Math magicians] <a name="about-project"></a>
+# 📖 [Book Store] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -87,7 +84,7 @@ Remove a selected book.
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://math-magicians-u2nc.onrender.com)
+- [Live Demo Link](https://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,13 +105,13 @@ In order to run this project you need:
 ### Setup
 
 - Clone this repository to your desired folder using terminal:
-  git clone https://github.com/ReemMohamedAbdelfatah/toDOLISTapp.git
+  git clone https://github.com/ReemMohamedAbdelfatah/bookstore-react.git
 
 ### Install
 
 Install this project with:
 
-- webpack and linters.
+- React Redux
 
 ### Usage
 
