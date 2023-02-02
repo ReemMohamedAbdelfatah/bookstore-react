@@ -5,7 +5,7 @@
   <img src="mathmagician.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Book Store</b></h3>
+  <h3><b>Book Store using React</b></h3>
 
 </div>
 
@@ -35,7 +35,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[Book store]** "Book store" is an MVP version of it that allows you to:
+**[Book store using react-redux]** "Book store" is an MVP version of it that allows you to:
 
 Display a list of books.
 Add a book.
