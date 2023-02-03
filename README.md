@@ -30,8 +30,6 @@
 
 # 📖 [Book Store] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Book store using react-redux]** "Book store" is an MVP version of it that allows you to:
 
 Display a list of books.
@@ -42,7 +40,6 @@ Remove a selected book.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -69,8 +66,6 @@ Remove a selected book.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Add_new_Book]**
 - **[Remove_Book]**
 - **[Edit_Book]**
@@ -82,15 +77,11 @@ Remove a selected book.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -136,7 +127,6 @@ Coming Soon ....
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Reem Muhammed**
 
@@ -146,8 +136,6 @@ Coming Soon ....
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Better_design]**
 - [ ] **[schedule_tasks_on_calendar]**
@@ -162,31 +150,24 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project please star the project and feel free to add your own touches.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[How_to_use_the_app?]**
 
@@ -198,7 +179,6 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
