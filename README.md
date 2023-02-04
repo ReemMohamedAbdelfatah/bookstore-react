@@ -77,7 +77,7 @@ Remove a selected book.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://)
+- [Live Demo Link](https://react-book-store-hrdq.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ Coming Soon ....
 👤 **Reem Muhammed**
 
 - GitHub: [@github](https://github.com/ReemMohamedAbdelfatah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reem-abd-el-fatah-a07543116)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reem-muhammad-a07543116?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8oXRVn%2BLQqOw3x9O827l9g%3D%3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
