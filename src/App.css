@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=East+Sea+Dokdo&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bree Serif', sans-serif !important;
   background-color: #f5f6fa;
 }
 
@@ -199,6 +199,7 @@ body {
   border: none;
   letter-spacing: 0.5px;
   color: #fff;
+  font-family: 'Bree Serif', sans-serif !important;
   font-size: 0.813rem;
   font-weight: 700;
 }
@@ -211,6 +212,7 @@ body {
   background-color: transparent;
   border: 1px solid #fff;
   color: #4386bf;
+  font-family: 'Bree Serif', sans-serif !important;
   font-size: 0.875rem;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -262,6 +264,7 @@ body {
   border-radius: 4px;
   border: 1px solid #e8e8e8;
   background-color: #fff;
+  font-family: 'Bree Serif', sans-serif !important;
   font-size: 1rem;
   letter-spacing: -0.15px;
   color: #121212;
@@ -276,6 +279,7 @@ body {
 }
 
 .form-input::placeholder {
+  font-family: 'Bree Serif', sans-serif !important;
   font-size: 1rem;
   color: #444;
   opacity: 0.5;
@@ -290,6 +294,7 @@ body {
   border: none;
   letter-spacing: 0.5px;
   color: #fff;
+  font-family: 'Bree Serif', sans-serif !important;
   font-size: 0.813rem;
   font-weight: 700;
 }
