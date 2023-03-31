@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <h3><b>Book Store</b></h3>
-
+  <h3><b>Book Store using React</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -31,7 +29,7 @@
 # 📖 [Book Store] <a name="about-project"></a>
 
 
-**[Book store]** "Book store" is an MVP version of it that allows you to:
+**[Book store using react-redux]** "Book store" is an MVP version of it that allows you to:
 
 Display a list of books.
 Add a book.
@@ -84,7 +82,6 @@ Coming Soon ...
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -98,13 +95,13 @@ In order to run this project you need:
 ### Setup
 
 - Clone this repository to your desired folder using terminal:
-  git clone https://github.com/ReemMohamedAbdelfatah/toDOLISTapp.git
+  git clone https://github.com/ReemMohamedAbdelfatah/bookstore-react.git
 
 ### Install
 
 Install this project with:
 
-- webpack and linters.
+- React Redux
 
 ### Usage
 
@@ -132,7 +129,7 @@ Coming Soon ....
 👤 **Reem Muhammed**
 
 - GitHub: [@github](https://github.com/ReemMohamedAbdelfatah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reem-abd-el-fatah-a07543116)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reem-muhammad-a07543116?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8oXRVn%2BLQqOw3x9O827l9g%3D%3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,23 +147,20 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please star the project and feel free to add your own touches.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
@@ -181,7 +175,6 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 

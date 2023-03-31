@@ -1,20 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
+import { addBook } from '../Redux/books/books';
 
-const Form = () => (
-  <>
-    <form className="form">
-      <input type="text" name="title" placeholder="Book title" />
-      <select className="form-select">
-        <option value="author">Select Author</option>
-        <option value="option-1">Select option 1</option>
-        <option value="option-2">Select option 2</option>
-        <option value="option-3">Select option 3</option>
-      </select>
-      <button className="form-btn" type="submit">
-        Add Book
-      </button>
-    </form>
-  </>
-);
+const Form = () => {
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+
+  const dispatch = useDispatch();
+
+  const addBookToStore = (e) => {
+    e.preventDefault();
+    if (!title || !author) {
+      return;
+    }
+    const book = {
+      item_id: uuidv4(),
+      title,
+      author,
+      category: 'Fiction',
+    };
+    dispatch(addBook(book));
+    setTitle('');
+    setAuthor('');
+  };
+
+  const handleTitleChange = (e) => {
+    setTitle(e.target.value);
+  };
+
+  const handleAuthorChange = (e) => {
+    setAuthor(e.target.value);
+  };
+
+  return (
+    <div className="form-container">
+      <h2 className="form-title">Add New Book</h2>
+      <form className="form" onSubmit={addBookToStore}>
+        <input
+          type="text"
+          name="title"
+          className="form-input"
+          value={title}
+          onChange={handleTitleChange}
+          placeholder="Book Title"
+        />
+        <input
+          type="text"
+          name="author"
+          className="form-input author-input"
+          value={author}
+          onChange={handleAuthorChange}
+          placeholder="Author Name"
+        />
+        <select className="category-input">
+          <option value="Category">Category</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Economy">Economy Fiction</option>
+        </select>
+        <button className="form-btn" type="submit">
+          Add Book
+        </button>
+      </form>
+    </div>
+  );
+};
 
 export default Form;
