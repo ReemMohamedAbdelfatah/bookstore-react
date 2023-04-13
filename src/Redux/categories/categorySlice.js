@@ -20,6 +20,7 @@ const categorySlice = createSlice({
     },
   },
 });
+
 export { checkCategory };
 
 export default categorySlice;
