@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { checkCategory } from '../Redux/categories/categories';
+import { checkCategory } from '../Redux/categories/categorySlice';
 
 const Categories = () => {
   const dispatch = useDispatch();

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../Redux/books/books';
+import { bookAdded } from '../Redux/books/bookSlice';
 
 const Form = () => {
   const dispatch = useDispatch();
@@ -13,7 +12,7 @@ const Form = () => {
     if (state.title === '') {
       return;
     }
-    dispatch(addBook(state));
+    dispatch(bookAdded(state));
     setState({ id: '', title: '', author: '' });
   };
 
