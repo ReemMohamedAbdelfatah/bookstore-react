@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
- 
   <h3><b>Book Store using React</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -30,6 +28,7 @@
 
 # 📖 [Book Store] <a name="about-project"></a>
 
+
 **[Book store using react-redux]** "Book store" is an MVP version of it that allows you to:
 
 Display a list of books.
@@ -39,7 +38,6 @@ Remove a selected book.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Client</summary>
@@ -77,7 +75,8 @@ Remove a selected book.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://react-book-store-hrdq.onrender.com)
+- [Live Demo Link]()
+Coming Soon ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +126,6 @@ Coming Soon ....
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Reem Muhammed**
 
 - GitHub: [@github](https://github.com/ReemMohamedAbdelfatah)
@@ -138,7 +136,6 @@ Coming Soon ....
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Better_design]**
-- [ ] **[schedule_tasks_on_calendar]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +148,6 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project please star the project and feel free to add your own touches.
 
