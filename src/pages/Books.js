@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     title: 'The Hunger Games',
-    author: 'Suzanne Collins',
+    author: 'Suzanne Collinssss',
   },
   {
     id: 2,
