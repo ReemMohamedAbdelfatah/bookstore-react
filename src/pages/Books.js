@@ -1,36 +1,43 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React from 'react';
 import Book from '../components/Book';
 import Form from '../components/Form';
-import { getBooks } from '../Redux/books/books';
 
-const Books = () => {
-  const dispatch = useDispatch();
-  const books = useSelector((state) => state.books);
+const data = [
+  {
+    id: 1,
+    title: 'The Hunger Games',
+    author: 'Suzanne Collinssss',
+  },
+  {
+    id: 2,
+    title: 'Dune',
+    author: 'Frank Herbert',
+  },
+  {
+    id: 3,
+    title: 'Capital in the Twenty-First Century',
+    author: 'Suzanne Collins',
+  },
+  {
+    id: 4,
+    title: 'Capital in the Twenty-First Century',
+    author: 'Suzanne Collins',
+  },
+];
 
-  useEffect(() => {
-    dispatch(getBooks());
-  }, [dispatch]);
-
-  return (
-    <>
-      <div className="books">
-        <div className="books-list">
-          {books.map((book) => (
-            <Book
-              key={book.item_id}
-              id={book.item_id}
-              title={book.title}
-              author={book.author}
-            />
-          ))}
-        </div>
-        <div className="books-form">
-          <Form />
-        </div>
+const Books = () => (
+  <>
+    <div className="books">
+      <div className="books-list">
+        {data.map((book) => (
+          <Book key={book.id} title={book.title} author={book.author} />
+        ))}
       </div>
-    </>
-  );
-};
+      <div className="books-form">
+        <Form />
+      </div>
+    </div>
+  </>
+);
 
 export default Books;
