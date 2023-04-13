@@ -30,7 +30,6 @@
 
 # 📖 [Book Store] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Book store using react-redux]** "Book store" is an MVP version of it that allows you to:
 
@@ -69,7 +68,6 @@ Remove a selected book.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Add_new_Book]**
 - **[Remove_Book]**
@@ -82,7 +80,6 @@ Remove a selected book.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://)
 
