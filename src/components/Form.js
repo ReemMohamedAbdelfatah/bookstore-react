@@ -1,52 +1,61 @@
 import React, { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { bookAdded } from '../Redux/books/bookSlice';
+import { v4 as uuidv4 } from 'uuid';
+import { addBook } from '../Redux/books/bookSlice';
 
 const Form = () => {
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+
   const dispatch = useDispatch();
-  const [state, setState] = useState({ id: '', title: '', author: '' });
 
   const addBookToStore = (e) => {
     e.preventDefault();
-    if (state.title === '') {
+    if (!title || !author) {
       return;
     }
-    dispatch(bookAdded(state));
-    setState({ id: '', title: '', author: '' });
+    const book = {
+      item_id: uuidv4(),
+      title,
+      author,
+      category: 'Fiction',
+    };
+    dispatch(addBook(book));
+    setTitle('');
+    setAuthor('');
   };
 
   const handleTitleChange = (e) => {
-    setState({
-      ...state,
-      id: uuidv4(),
-      [e.target.name]: e.target.value,
-    });
+    setTitle(e.target.value);
+  };
+
+  const handleAuthorChange = (e) => {
+    setAuthor(e.target.value);
   };
 
   return (
-    <>
+    <div>
+      <h2 className="form-title">Add New Book</h2>
       <form className="form" onSubmit={addBookToStore}>
         <input
           type="text"
           name="title"
-          placeholder="Book title"
-          value={state.title}
+          value={title}
           onChange={handleTitleChange}
+          placeholder="Book Title"
         />
         <input
           type="text"
           name="author"
-          placeholder="Book author"
-          className="form-select"
-          value={state.author}
-          onChange={handleTitleChange}
+          value={author}
+          onChange={handleAuthorChange}
+          placeholder="Author Name"
         />
         <button className="form-btn" type="submit">
           Add Book
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
