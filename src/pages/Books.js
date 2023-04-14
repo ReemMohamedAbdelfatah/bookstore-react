@@ -4,7 +4,7 @@ import Book from '../components/Book';
 import Form from '../components/Form';
 
 const Books = () => {
-  const data = useSelector((state) => state.books);
+  const data = useSelector((state) => state.books.books);
   return (
     <>
       <div className="books">
