@@ -1,19 +1,18 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Books from './pages/Books';
-import Categories from './pages/Categories';
-import Navbar from './components/Navbar';
-import './App.css';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './Redux/configureStore';
 
-const App = () => (
-  <div className="app">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Books />} />
-      <Route path="/categories" element={<Categories />} />
-      <Route path="*" element={<h1>Error...</h1>} />
-    </Routes>
-  </div>
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </React.StrictMode>,
 );
-
-export default App;
