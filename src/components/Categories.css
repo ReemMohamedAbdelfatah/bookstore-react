@@ -1,0 +1,11 @@
+.categories {
+  min-height: 100vh;
+}
+
+.status img {
+  display: none;
+}
+
+.visible {
+  display: block !important;
+}

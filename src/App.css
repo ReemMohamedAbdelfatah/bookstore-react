@@ -1,48 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+.root {
+  padding: 100px 40px;
+  background-color: #f5f6fa;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
+.App {
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
+  padding-bottom: 8%;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
+nav {
+  padding: 24px 4%;
   background-color: #fff;
-  margin-bottom: 5rem;
-}
-
-.navbar-lists {
+  border-bottom: 1px solid #e8e8e8;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style-type: none;
-  margin-left: 1rem;
+  gap: 40px;
 }
 
-.navbar-list a {
-  margin-right: 3rem;
-  text-decoration: none;
-  color: #000;
+.logo {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
 }
 
-.user {
+.nav-left {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.813rem;
+  color: #121212;
+  letter-spacing: 1.9px;
+  display: flex;
+}
+
+.active {
+  opacity: 1;
+  color: #121212 !important;
+}
+
+.nav-right {
+  color: #0290ff;
   cursor: pointer;
 }
 
-.books {
+.menu {
+  gap: 60px;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  gap: 20px;
+  align-items: center;
 }
 
-.book {
-  margin-bottom: 20px;
+.menu li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
