@@ -10,7 +10,7 @@ export default function Categories() {
         <p
           className={visible && 'visible'}
         >
-        Loading ...
+          Loading ...
         </p>
       </div>
       <button type="button" onClick={handleClick}>Check status</button>

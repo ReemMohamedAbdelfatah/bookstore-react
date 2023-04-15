@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/9WaDzvSutlrmYrPgGIDQ/books';
