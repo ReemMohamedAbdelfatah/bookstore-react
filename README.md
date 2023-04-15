@@ -69,9 +69,6 @@ Remove a selected book.
 - **[Edit_Book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Screenshot
-
-![readme](./app_screenshoot.png)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
