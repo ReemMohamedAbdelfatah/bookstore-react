@@ -7,11 +7,11 @@ export default function Categories() {
   return (
     <div className="categories">
       <div className="status">
-        <img
-          src="https://media.giphy.com/media/gibvnAbdWQEiGtPlk3/giphy.gif"
-          alt="status"
+        <p
           className={visible && 'visible'}
-        />
+        >
+        Loading ...
+        </p>
       </div>
       <button type="button" onClick={handleClick}>Check status</button>
     </div>

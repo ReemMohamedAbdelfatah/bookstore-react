@@ -1,7 +1,7 @@
-import axios from "axios"; // eslint-disable-line
+import axios from "axios";
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/2hUE0lK06jKqF74sZ3oy/books';
+const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/9WaDzvSutlrmYrPgGIDQ/books';
 const initialState = {
   books: [],
   status: 'idle',
@@ -49,7 +49,6 @@ const booksSlice = createSlice({
         state.status = "failed";
         state.error = action.error.message;
       });
-    /* eslint-enable */
   },
 });
 
